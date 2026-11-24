@@ -1,0 +1,24 @@
+# Untangle Rope: Twisted Knot — Android integration source (development candidate)
+
+Package ID: com.untangleropetwistedknot.app. This source is based on the approved 500-level plain-rope UI. All 500 level definitions are byte-identical. No physics algorithm changes. Includes a native Java WebView shell, Firebase configuration, Analytics event bridge, UMP advertising consent, rewarded hints, standard interstitials, and a native anchored adaptive banner separated from gameplay controls.
+
+## Build
+Open this folder in Android Studio with SDK 36 installed, JDK 17 or compatible, Gradle 8.13 (required by AGP 8.12.0). No Gradle distribution/wrapper binary or signing key is included. Use installed Gradle 8.13 to generate wrapper (`gradle wrapper --gradle-version 8.13`) if necessary. Sync and run the debug build on a device. All builds use Google sample app/ad unit IDs by default, except a release build explicitly built with `-PenableLiveAds=true`. The actual live app ID is in the release build configuration; all three production ad IDs are in MainActivity.java. Do not use live ads for testing; do not click your own live ads. The rewarded interstitial ID is intentionally unused.
+
+## Game behavior
+First usable hint per level is free. The filmstrip AD badge appears after it is used. Additional hints require an SDK-earned reward; no reward on a skipped/unavailable ad. Per-level entitlement and count of newly completed levels persist in the progress record. Interstitial attempts occur on Next Level following every second first-time completion. Unavailable interstitials do not prevent progression. The banner is native and outside the WebView, with a 12dp top gap; it hides during overlays/full-screen ads. Short screens and resized tablets need real-device layout testing. The browser standalone without a native bridge cannot load or reward ads; browser QA uses mock callbacks. Debug/browser level selector remains available for QA; production permits only completed/current and next unlocked levels. The existing save logic stores progression, not in-progress rope positions; this release does not introduce mid-level save.
+
+## Privacy and release
+Configure the real AdMob Privacy & messaging forms before live release. UMP consent update and form at launch precede ad loading. Help > Privacy choices opens UMP privacy options when required and optional gameplay analytics preference. Analytics defaults off until user allows collection; use GA4 DebugView for device validation. Final consent, data safety, ads declaration and advertising-ID declaration must match actual SDK behavior and audience. The repository includes offline in-app policy access, developer contact, website, app-ads.txt, and provisional icon; publish and verify URLs, trader information, listing, signing and Play Console testing before release. Do not publish this development candidate without the release gate checks.
+
+## Testing status
+`browser-qa.json` records real Chromium drag playthroughs for levels 1 and 2, replay, mock native ad success/failure, and mock-persisted hint usage across reload. The original 500-level UI audit is included separately. `hint-badge-preview.png` is an actual browser screenshot with the badge, not an Android ad screenshot. Android Gradle/SDK and emulator are unavailable in the creation environment, so native compilation, merged-manifest checking, live SDK/UMP/GA4 validation, device layouts with actual banner, APK and AAB generation remain pending. No claim of Play Store acceptance.
+
+
+## Portrait-only adaptive layout
+Phones, tablets and foldables request portrait in full-screen mode. The approved artwork, board, HUD and controls scale proportionally to available content width and height. Very short windows use vertical scrolling rather than shrinking below a usable minimum width (280 CSS pixels when available). Android controls multi-window orientation; even when the OS provides a wide window, content remains in a single centered portrait column. No landscape-specific board layout. Native safe insets and adaptive banner behavior are unchanged. Both orientation hardware features remain optional, the activity remains resizable, and no static orientation lock is declared in the manifest. OS overrides are still possible.
+
+See portrait-layout-qa.json, portrait-resize-qa.json, browser-qa.json, orientation-policy-qa.json and the reproducible scripts. Earlier adaptive reports are archived under qa/historical (not current results). Run JVM policy tests with `javac -d /tmp/rope-policy app/src/main/java/com/untangleropetwistedknot/app/OrientationPolicy.java qa/OrientationPolicyTest.java` then `java -cp /tmp/rope-policy com.untangleropetwistedknot.app.OrientationPolicyTest`. Native builds and device tests remain required.
+
+## Repository packaging update
+See the repository root README.md, PUBLISHING.md and QA_REPORT.json for current website, policy, release-lock and verification status.

@@ -1,0 +1,15 @@
+{
+  "orientation_policy_jvm": "45 orientation policy cases passed",
+  "source_manifest": "PASS",
+  "optional_hardware_features": {
+    "android.hardware.screen.portrait": "false",
+    "android.hardware.screen.landscape": "false"
+  },
+  "app_category": "game",
+  "resizable": true,
+  "static_orientation_lock": false,
+  "html_byte_identical": true,
+  "html_sha256": "d74fefa3def718b661e07f4123cff6addeaeb17115c1bfa068ea105277b37be8",
+  "firebase_config_unchanged": true,
+  "native_build_and_device_test": "pending"
+}

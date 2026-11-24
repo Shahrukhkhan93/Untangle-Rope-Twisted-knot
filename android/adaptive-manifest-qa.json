@@ -1,0 +1,12 @@
+{
+  "source_manifest_checks": "PASS",
+  "optional_features": {
+    "android.hardware.screen.portrait": "false",
+    "android.hardware.screen.landscape": "false"
+  },
+  "resizable_application": true,
+  "resizable_activity": true,
+  "orientation_lock": false,
+  "merged_manifest_not_built": true,
+  "native_device_tests": "pending"
+}

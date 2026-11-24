@@ -1,0 +1,148 @@
+{
+  "site": {
+    "relative_links_assets_and_authorized_seller": "passed",
+    "page_viewport_combinations": 16,
+    "horizontal_overflows": 0,
+    "broken_images": 0
+  },
+  "app": {
+    "puzzle_definitions_unchanged": 500,
+    "release_level_lock_and_privacy_bridge_mock": "passed",
+    "browser_js_errors": [],
+    "source_manifest_firebase_ad_ids_and_offline_policy": "passed",
+    "orientation_policy_cases_passed": 45,
+    "mock_ad_regressions": {
+      "first_hint_free_badge_appears": true,
+      "skipped_reward_no_hint": true,
+      "completed_reward_reveals_hint": true,
+      "restart_keeps_used_free_hint": true,
+      "reload_keeps_used_free_hint": true,
+      "new_level_free_hint": true,
+      "no_interstitial_after_one_completion": true,
+      "interstitial_after_two_unavailable_still_advances": true,
+      "replay_not_counted": true,
+      "js_errors": []
+    },
+    "portrait_layout_checks": 9500,
+    "viewport_count": 19,
+    "layout_issues": 0,
+    "level_scripts_unchanged": true,
+    "production_level_lock_and_privacy_bridge_mock_rechecked": true,
+    "drag_and_resize": {
+      "level_definitions_byte_identical": true,
+      "levels_sha256": "615db571d7650f06e6641faaae1be4aa127faceb6f97880b96bccd59fb07ee41",
+      "actual_drag": [
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "level": 1,
+          "win": true
+        },
+        {
+          "viewport": [
+            768,
+            1024
+          ],
+          "level": 1,
+          "win": true
+        },
+        {
+          "viewport": [
+            1024,
+            1366
+          ],
+          "level": 1,
+          "win": true
+        },
+        {
+          "viewport": [
+            390,
+            780
+          ],
+          "level": 1,
+          "win": true
+        }
+      ],
+      "resize_state_preserved": [
+        [
+          844,
+          390
+        ],
+        [
+          768,
+          1024
+        ],
+        [
+          360,
+          640
+        ],
+        [
+          360,
+          580
+        ],
+        [
+          1024,
+          1366
+        ]
+      ],
+      "visual_checks": [
+        [
+          390,
+          780
+        ],
+        [
+          320,
+          480
+        ],
+        [
+          768,
+          1024
+        ],
+        [
+          1024,
+          1366
+        ],
+        [
+          280,
+          480
+        ],
+        [
+          844,
+          390
+        ]
+      ],
+      "level2_completed_after_resize": true,
+      "js_errors": []
+    },
+    "firebase_gradle_manifest_ad_seller_and_legal_pages_unchanged": true,
+    "production_level_selector_copy": "corrected",
+    "production_saved_progress_sanitization": "contiguous completion sequence enforced before resuming",
+    "production_test_api": "solution arrays hidden; debug level-selection methods removed",
+    "production_mode_hardening": {
+      "selector_copy": "passed",
+      "saved_current_clamped_to_contiguous_progress": "passed",
+      "debug_level_selection_methods_removed": "passed",
+      "solution_arrays_not_exposed_by_test_api": "passed"
+    },
+    "full_500_level_actual_engine_playthrough": "not completed; all 500 received layout checks, while actual drag/play checks cover selected levels only"
+  },
+  "notes": [
+    "Portrait layout checks used Chromium, with initial physics settling skipped only in layout sweep. Actual drags and resize checks ran with physics enabled.",
+    "Prior website checks are historical; current homepage text and screenshot have been updated.",
+    "Native APK/AAB build, physical device testing, merged release manifest, AdMob delivery and GA4 reception remain pending.",
+    "Very short windows may scroll vertically; wide OS-controlled windows retain a centered portrait layout.",
+    "Production selector text and saved-level resume checks were hardened during final ZIP audit. Native build and full 500-level engine play-through remain pending."
+  ],
+  "release": {
+    "native_build": "pending",
+    "signed_aab": "pending",
+    "physical_device_and_prelaunch_report": "pending",
+    "live_ad_delivery_and_ga4_debugview": "pending",
+    "website_deployment_and_app_ads_txt_verification": "pending",
+    "trader_address_and_phone": "owner details required",
+    "play_console_declarations_and_store_listing_assets": "pending",
+    "16kb_page_size_aab_verification": "pending"
+  }
+}

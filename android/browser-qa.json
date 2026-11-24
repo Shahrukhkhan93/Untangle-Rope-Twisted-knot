@@ -1,0 +1,12 @@
+{
+  "first_hint_free_badge_appears": true,
+  "skipped_reward_no_hint": true,
+  "completed_reward_reveals_hint": true,
+  "restart_keeps_used_free_hint": true,
+  "reload_keeps_used_free_hint": true,
+  "new_level_free_hint": true,
+  "no_interstitial_after_one_completion": true,
+  "interstitial_after_two_unavailable_still_advances": true,
+  "replay_not_counted": true,
+  "js_errors": []
+}

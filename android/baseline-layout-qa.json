@@ -1,0 +1,101 @@
+{
+  "level_count": 500,
+  "level_data_identical": true,
+  "main_engine_except_renderer_and_counter_identical": true,
+  "viewports": [
+    {
+      "checked": 500,
+      "challengeCount": 376,
+      "minGap": 1.0625,
+      "issues": [],
+      "viewport": [
+        320,
+        568
+      ],
+      "page_errors": []
+    },
+    {
+      "checked": 500,
+      "challengeCount": 376,
+      "minGap": 1.171875,
+      "issues": [],
+      "viewport": [
+        360,
+        640
+      ],
+      "page_errors": []
+    },
+    {
+      "checked": 500,
+      "challengeCount": 376,
+      "minGap": 1.28125,
+      "issues": [],
+      "viewport": [
+        390,
+        844
+      ],
+      "page_errors": []
+    },
+    {
+      "checked": 500,
+      "challengeCount": 376,
+      "minGap": 1.4375,
+      "issues": [],
+      "viewport": [
+        440,
+        956
+      ],
+      "page_errors": []
+    },
+    {
+      "checked": 500,
+      "challengeCount": 376,
+      "minGap": 1.90625,
+      "issues": [],
+      "viewport": [
+        768,
+        1024
+      ],
+      "page_errors": []
+    },
+    {
+      "checked": 500,
+      "challengeCount": 376,
+      "minGap": 1.421875,
+      "issues": [],
+      "viewport": [
+        1366,
+        768
+      ],
+      "page_errors": []
+    }
+  ],
+  "test_note": "320x568 used original reset settling; additional layout-only checks skip 55 physics settling steps in in-memory test copy. Delivered HTML unmodified.",
+  "sample_actual_drag_playthroughs": [
+    {
+      "level": 1,
+      "moves": 1,
+      "expected": 1,
+      "crossings": 0,
+      "goalsLeft": 0,
+      "win": true
+    },
+    {
+      "level": 2,
+      "moves": 2,
+      "expected": 2,
+      "crossings": 0,
+      "goalsLeft": 0,
+      "win": true
+    },
+    {
+      "level": 9,
+      "moves": 6,
+      "expected": 6,
+      "crossings": 0,
+      "goalsLeft": 0,
+      "win": true
+    }
+  ],
+  "sample_playthrough_errors": []
+}

@@ -1,0 +1,32 @@
+plugins { id 'com.android.application'; id 'com.google.gms.google-services' }
+android {
+ namespace 'com.untangleropetwistedknot.app'
+ compileSdk 36
+ defaultConfig {
+  applicationId 'com.untangleropetwistedknot.app'
+  minSdk 23
+  targetSdk 36
+  versionCode 1
+  versionName '1.0.0'
+  manifestPlaceholders = [admobAppId: 'ca-app-pub-3940256099942544~3347511713']
+ }
+ buildFeatures { buildConfig true }
+ buildTypes {
+  debug { buildConfigField 'boolean', 'LIVE_ADS', 'false' }
+  release {
+   // Explicit opt-in; test ads are the safe default even for unsigned release checks.
+   def live = project.findProperty('enableLiveAds') == 'true'
+   buildConfigField 'boolean', 'LIVE_ADS', live.toString()
+   if (live) manifestPlaceholders = [admobAppId: 'ca-app-pub-7725989747808511~8701741117']
+   minifyEnabled false
+  }
+ }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies {
+ implementation platform('com.google.firebase:firebase-bom:35.2.0')
+ implementation 'com.google.firebase:firebase-analytics'
+ implementation 'com.google.android.gms:play-services-ads:25.4.0'
+ implementation 'com.google.android.ump:user-messaging-platform:4.0.0'
+ implementation 'androidx.webkit:webkit:1.12.1'
+}

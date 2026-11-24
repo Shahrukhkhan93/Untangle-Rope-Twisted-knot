@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "495860591804",
+    "project_id": "untangle-rope-twisted-knot",
+    "storage_bucket": "untangle-rope-twisted-knot.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495860591804:android:90bf4edb8d332de0eeb4b9",
+        "android_client_info": {
+          "package_name": "com.untangleropetwistedknot.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiFraHIpYamy1q2JJqOeq8FRKg31ZfID8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

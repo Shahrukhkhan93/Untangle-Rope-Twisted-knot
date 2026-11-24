@@ -1,0 +1,233 @@
+{
+  "viewports": [
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 44.859375,
+      "minBoard": 242.875,
+      "verticalScroll": true,
+      "viewport": [
+        280,
+        480
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 44.859375,
+      "minBoard": 242.875,
+      "verticalScroll": true,
+      "viewport": [
+        320,
+        480
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 51.203125,
+      "minBoard": 277.296875,
+      "verticalScroll": false,
+      "viewport": [
+        320,
+        568
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 52.28125,
+      "minBoard": 283.15625,
+      "verticalScroll": false,
+      "viewport": [
+        360,
+        580
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 57.671875,
+      "minBoard": 312.28125,
+      "verticalScroll": false,
+      "viewport": [
+        360,
+        640
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 62.484375,
+      "minBoard": 338.296875,
+      "verticalScroll": false,
+      "viewport": [
+        390,
+        780
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 68.890625,
+      "minBoard": 373,
+      "verticalScroll": false,
+      "viewport": [
+        430,
+        932
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 72.140625,
+      "minBoard": 390.5625,
+      "verticalScroll": false,
+      "viewport": [
+        480,
+        800
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 64.921875,
+      "minBoard": 351.5,
+      "verticalScroll": false,
+      "viewport": [
+        540,
+        720
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 86.5625,
+      "minBoard": 468.6875,
+      "verticalScroll": false,
+      "viewport": [
+        600,
+        960
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 92.328125,
+      "minBoard": 499.921875,
+      "verticalScroll": false,
+      "viewport": [
+        768,
+        1024
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 115.421875,
+      "minBoard": 624.90625,
+      "verticalScroll": false,
+      "viewport": [
+        800,
+        1280
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 123.171875,
+      "minBoard": 666.890625,
+      "verticalScroll": false,
+      "viewport": [
+        1024,
+        1366
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 173.125,
+      "minBoard": 937.375,
+      "verticalScroll": false,
+      "viewport": [
+        1200,
+        1920
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 44.859375,
+      "minBoard": 242.875,
+      "verticalScroll": true,
+      "viewport": [
+        320,
+        400
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 76.640625,
+      "minBoard": 414.96875,
+      "verticalScroll": false,
+      "viewport": [
+        768,
+        850
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 44.859375,
+      "minBoard": 242.875,
+      "verticalScroll": true,
+      "viewport": [
+        844,
+        390
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 69.25,
+      "minBoard": 374.9375,
+      "verticalScroll": false,
+      "viewport": [
+        1024,
+        768
+      ],
+      "js_errors": []
+    },
+    {
+      "checked": 500,
+      "issues": [],
+      "minButton": 44.859375,
+      "minBoard": 242.875,
+      "verticalScroll": true,
+      "viewport": [
+        740,
+        300
+      ],
+      "js_errors": []
+    }
+  ],
+  "method": "Live Chromium DOM; initial physics settling skipped only in layout sweep; reduced viewport sizes simulate banner space."
+}

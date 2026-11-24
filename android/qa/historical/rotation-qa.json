@@ -1,0 +1,88 @@
+{
+  "level_definitions_byte_identical": true,
+  "levels_sha256": "615db571d7650f06e6641faaae1be4aa127faceb6f97880b96bccd59fb07ee41",
+  "actual_drag": [
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "level": 1,
+      "win": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "level": 1,
+      "win": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "level": 1,
+      "win": true
+    },
+    {
+      "viewport": [
+        390,
+        780
+      ],
+      "level": 1,
+      "win": true
+    }
+  ],
+  "resize_state_preserved": [
+    [
+      844,
+      390
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      360,
+      640
+    ],
+    [
+      360,
+      580
+    ],
+    [
+      1280,
+      800
+    ]
+  ],
+  "visual_checks": [
+    [
+      390,
+      780
+    ],
+    [
+      320,
+      480
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      280,
+      480
+    ]
+  ],
+  "level2_completed_after_resize": true,
+  "js_errors": []
+}
