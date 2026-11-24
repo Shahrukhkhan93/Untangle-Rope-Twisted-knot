@@ -15,12 +15,12 @@
 
 | Path | Purpose |
 |---|---|
-| `website/index.html` | Official responsive home page with actual game artwork and Google Play link |
-| `website/privacy-policy.html` | Public privacy policy, including advertising and optional analytics |
-| `website/terms-of-use.html` | Consumer-facing terms |
-| `website/support.html` | Contact, trader identity and privacy/deletion request guidance |
-| `website/app-ads.txt` | Authorized Google advertising seller record |
-| `netlify.toml` | Publishes only `website/` at the hosting domain root |
+| `public/index.html` | Official responsive home page with actual game artwork and Google Play link |
+| `public/privacy-policy.html` | Public privacy policy, including advertising and optional analytics |
+| `public/terms-of-use.html` | Consumer-facing terms |
+| `public/support.html` | Contact, trader identity and privacy/deletion request guidance |
+| `public/app-ads.txt` | Authorized Google advertising seller record |
+| `netlify.toml` | Publishes only `public/` at the hosting domain root |
 | `android/` | Complete existing native Java/WebView Android source; 500 levels; orientation policy; Firebase and AdMob configuration; offline legal pages |
 | `.github/workflows/android-build.yml` | Build checks, unsigned AAB and debug APK artifacts (not yet executed on GitHub) |
 | `PUBLISHING.md` | Publication guide, required trader and legal checks, data safety worksheet, live testing and release gate |

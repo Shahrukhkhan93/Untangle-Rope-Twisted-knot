@@ -12,7 +12,7 @@ git remote add origin https://github.com/YOUR-ACCOUNT/Untangle-Rope-Twisted-knot
 git push -u origin main
 ```
 
-Alternatively, upload all the extracted folders and root files through GitHub. Ensure hidden files are included. In Netlify, choose **Add new project → Import an existing project → GitHub**, authorize access to this repository, and deploy. No build command or base directory is necessary; `netlify.toml` sets the publish directory to `website`. Choose a dedicated site hostname (for example, `untangle-rope-twisted-knot.netlify.app` if available, or a verified custom domain). The example hostname is not registered or deployed by this package. Do not use a project subpath as your advertising seller file needs to be at the domain root.
+Alternatively, upload all the extracted folders and root files through GitHub. Ensure hidden files are included. In Netlify, choose **Add new project → Import an existing project → GitHub**, authorize access to this repository, and deploy. No build command or base directory is necessary; `netlify.toml` sets the publish directory to `public`. Choose a dedicated site hostname (for example, `untangle-rope-twisted-knot.netlify.app` if available, or a verified custom domain). The example hostname is not registered or deployed by this package. Do not use a project subpath as your advertising seller file needs to be at the domain root.
 
 After deployment open each public URL in a signed-out browser (replace `YOUR-SITE` with your actual hostname):
 
